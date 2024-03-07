@@ -2,7 +2,6 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: aliceblue;
 }
 
 header {
@@ -18,19 +17,12 @@ header {
     margin-top: 10px;
 }
 
-.container2 {
-display: flexbox;
-margin-right: auto;
-margin-bottom: 10px;
-}
-
-.container img {
+.container {
     width: 100px; /* ajusta el tamaño de la imagen según sea necesario */
     margin-right: 20px; /* ajusta el espacio entre la imagen y el texto */
-}
+} 
 
 section {
-    margin-bottom: 10px;
     margin-left: 10PX;
 } 
 
@@ -38,11 +30,13 @@ section {
     margin-left: 50px;
     margin-left: auto;
     padding: 5px;
+    text-align: justify;
 }
 
 h1, h2, h3 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
     color: #333;
+    text-align: justify;
 }
 
 ul {
@@ -56,5 +50,5 @@ li {
 }
 
 #img {
-    border-radius: 100;
+    border-radius: 100%;
 }

@@ -1,13 +1,54 @@
-*{
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
     background-color: aliceblue;
-    margin: 10px;
-    
 }
 
-h1 {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+header {
+    background-color: #333;
+    color: aliceblue;
+    padding: 30px;
+    text-align: center;
 }
 
-.contact {
-    align-content: auto;
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.container2 {
+display: flexbox;
+margin-right: auto;
+}
+
+.container img {
+    width: 100px; /* ajusta el tamaño de la imagen según sea necesario */
+    margin-right: 20px; /* ajusta el espacio entre la imagen y el texto */
+}
+
+section {
+    margin-bottom: 10px;
+    margin-left: 10PX;
+}
+
+#acercademi {
+    margin-left: 50px;
+    margin-left: auto;
+    padding: 5px;
+}
+
+h1, h2, h3 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', sans-serif;
+    color: #333;
+}
+
+ul {
+    list-style-type:circle;
+    padding: 0;
+    margin: auto;
+}
+
+li {
+    margin-bottom: 10px;
 }

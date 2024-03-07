@@ -12,13 +12,22 @@
 
 <body>
     <header>
+        <section class="img">
         <div class="container">
-            <img id="img" src="./assets/img/IMG_0084.jpg" alt="Foto de María" width="100px" height="auto">
-            <div>
+        <img id="img" src="./assets/img/IMG_0084.jpg" alt="Foto de María" 
+        width="100px" height="auto">
+        </div>
+
+    </section>
+    <br>
+    <section>
+            <div class="container">
                 <h1>María Frausto Sánchez</h1>
+                <br>
                 <h2>Full-Stack developer</h2>
                 <p><b>Email:</b> mfrausto.fs@gmail.com</p>
             </div>
+            </section>
     </header>
 
     <main>
@@ -29,26 +38,31 @@
                     JavaScript, HTML, CSS, así como servicios de bases de datos tales como MySQL y PostgreSQL. Me gusta
                     aprender cosas nuevas de manera continua.</p>
             </section>
-            <section class=" proyectos">
+            <section id="proyectos" class="proyectos">
                 <h2>Proyectos</h2>
-                <ul>
-                    <li><b>Portfolio Website:</b> Utilicé HTML, CSS, Bootstrap y JavaScript.</li>
-                    <li><b>To-do list App con JavaScript:</b> Creé una aplicación que guarda una lista de tareas y se
-                        pueden marcar como
-                        completadas.</li>
-                    <li><b>Pomodoro App con Java:</b> Creé una aplicación de gestión de tiempo para productividad con
-                        Java que puede poner
-                        temporizadores.</li>
-                </ul>
+                <div class="project">
+                    <img src="./assets/img/sitio-web.png" alt="Proyecto 1">
+                    <p><b>Portfolio Website:</b> Utilicé HTML, CSS, Bootstrap y JavaScript.</p>
+                </div>
+                <div class="project">
+                    <img src="./assets/img/todo.png" alt="Proyecto 2">
+                    <p><b>To-do list App con JavaScript:</b> Creé una aplicación que guarda una lista de tareas y se
+                        pueden marcar como completadas.</p>
+                </div>
+                <div class="project">
+                    <img src="./assets/img/tecnica-pomodoro.png" alt="Proyecto 3">
+                    <p><b>Pomodoro App con Java:</b> Creé una aplicación de gestión de tiempo para productividad con
+                        Java que puede poner temporizadores.</p>
+                </div>
             </section>
-            <section class="educacion">
-            <h2>Educación</h2>
-            <p><b>Ingeniería de Software - 4to Semestre.</b> Universidad Autónoma de Sinaloa. 2021 - Actualmente</p>
-            <br>
-            <p><b>Licenciatura en Enseñanza del Idioma Inglés.</b> Titulada.</p>
+            <section id="educacion" class="educacion">
+                <h2>Educación</h2>
+                <p><b>Ingeniería de Software - 4to Semestre.</b> Universidad Autónoma de Sinaloa. 2021 - Actualmente</p>
+                <br>
+                <p><b>Licenciatura en Enseñanza del Idioma Inglés.</b> Titulada.</p>
             </section>
 
-            <section class="skills">
+            <section id="skills" class="skills">
                 <h2>Skills</h2>
                 <ul>
                     <li>HTML</li>
@@ -64,6 +78,13 @@
             </section>
         </div>
     </main>
+
+    <footer>
+        <ul>
+            <li><a href="https://github.com/fraustosm">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/mfraustofs">LinkedIn</a></li>
+        </ul>
+    </footer>
 
     <script src="./script.js"></script>
 </body>

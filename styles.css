@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #a6a6a6; 
     color: aliceblue;
     padding: 30px;
     text-align: center;
@@ -15,11 +15,13 @@ header {
 .container {
     display: flex;
     align-items: center;
+    margin-top: 10px;
 }
 
 .container2 {
 display: flexbox;
 margin-right: auto;
+margin-bottom: 10px;
 }
 
 .container img {
@@ -30,7 +32,7 @@ margin-right: auto;
 section {
     margin-bottom: 10px;
     margin-left: 10PX;
-}
+} 
 
 #acercademi {
     margin-left: 50px;
@@ -51,4 +53,8 @@ ul {
 
 li {
     margin-bottom: 10px;
+}
+
+#img {
+    border-radius: 100;
 }

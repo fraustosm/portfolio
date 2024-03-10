@@ -51,6 +51,7 @@ li {
 
 #img {
     border-radius: 100%;
+    margin-right: 5px;
 }
 
 #acercademi {
@@ -71,4 +72,12 @@ li {
 
 .proyectos {
     margin-left: 15px;
+}
+
+#info {
+  text-align: center;
+}
+
+#email {
+    text-align: left;
 }

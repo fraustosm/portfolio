@@ -81,3 +81,7 @@ li {
 #email {
     text-align: left;
 }
+
+p {
+    text-align: justify;
+}
